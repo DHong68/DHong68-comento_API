@@ -21,12 +21,12 @@
 ![결과](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8d440e90-7dd8-454a-b804-51ca04309ebf/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210304%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210304T063549Z&X-Amz-Expires=86400&X-Amz-Signature=0a69bbda2882be4cc39dac2d091e1a9348cd0fd365b338c42d5202c8151fceba&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
 
-<h3>2차 프론트엔드 개발자와 백엔드 개발자의 협업 이해하기 </h3>
 
+<h1>2차 프론트엔드 개발자와 백엔드 개발자의 협업 이해하기 </h1>
 <h5>HTTP (Hypertext Transfer Protocol)</h5>
 하이퍼텍스트 (Hyper Text란 컴퓨터 화면이나 전자 기기에서 볼 수 있는 있는 텍스트(데이터))문서를 교환하기 위한 규약
 
-![](https://bytesofgigabytes.com/IMAGES/Networking/HTTPcommuncation/http%20communication.png)
+
 
 HTTP 응답 코드
 | 상태코드 |     내용      |
@@ -51,8 +51,6 @@ HTTP 응답 코드
 
 ①② 사용자가 웹 브라우저를 통해 찾고 싶은 웹 페이지의 URL 주소를 입력
 
-![](http://www.codns.com/image/url11.png)
-
 ③ 사용자가 입력한 URL 주소 중에서 도메인 네임(domain name) 부분을 DNS 서버에서 검색한다.
 
 ④ DNS 서버에서 해당 도메인 네임에 해당하는 IP 주소를 찾아 사용자가 입력한 URL 정보와 함께 전달한다.
@@ -76,17 +74,17 @@ HTTP 응답 코드
 
 
 
-💡Rest
+<h5>💡Rest</h5>
 URI를 통하여 이렇듯 REST는 URI를 이용해 명시된 자원(resource)에 접근하고,
 자원(resource)에 어떠한 조작(CRUD)을 할 지 HTTP 메서드로 나타내는 방법이다.
 
-💡RESTful이란
+<h5>💡RESTful이란</h5>
 RESTful은 일반적으로 REST라는 아키텍처를 구현하는 웹 서비스를 나타내기 위해 사용되는 용어이다.
 ‘REST API’를 제공하는 웹 서비스를 ‘RESTful’하다고 할 수 있다.
 RESTful은 REST를 REST답게 쓰기 위한 방법으로, 누군가가 공식적으로 발표한 것이 아니다.
 즉, REST 원리를 따르는 시스템은 RESTful이란 용어로 지칭된다.
 
-RESTful의 목적
+<h5>RESTful의 목적</h5>
 이해하기 쉽고 사용하기 쉬운 REST API를 만드는 것
 RESTful한 API를 구현하는 근본적인 목적이 성능 향상에 있는 것이 아니라 일관적인 컨벤션을 통한 API의 이해도 및 호환성을 높이는 것이 주 동기이니, 
 성능이 중요한 상황에서는 굳이 RESTful한 API를 구현할 필요는 없다.
@@ -94,15 +92,15 @@ RESTful 하지 못한 경우
 Ex1) CRUD 기능을 모두 POST로만 처리하는 API
 Ex2) route에 resource, id 외의 정보가 들어가는 경우(/students/updateName)
 
-
-🔗 참고
- http://tcpschool.com/webbasic/works 
- https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html
- https://joshua1988.github.io/web-development/http-part1/
- https://nesoy.github.io/articles/2017-02/REST
- http://www.codns.com/b/B05-195
+<br>
+<h5>🔗참고 </h5><br>
+ http://tcpschool.com/webbasic/works  <br>
+ https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html <br>
+ https://joshua1988.github.io/web-development/http-part1/ <br>
+ https://nesoy.github.io/articles/2017-02/REST <br>
+ http://www.codns.com/b/B05-195 <br>
 
 
 * Q 
- Path Variable과 Query Parameter 혼용해서 작성해도 괜찮을까요?
+ Path Variable과 Query Parameter 혼용해서 작성해도 괜찮을까요? <br>
  네트워크 부분에 대해서 어느정도 지식이 있어야 할까요? 
