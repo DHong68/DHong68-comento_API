@@ -28,8 +28,28 @@
 
 
 <h1>2차 프론트엔드 개발자와 백엔드 개발자의 협업 이해하기 </h1>
-<h4>HTTP (Hypertext Transfer Protocol)</h4>
+
+<h4>1.HTTP (Hypertext Transfer Protocol)</h4>
 하이퍼텍스트 (Hyper Text란 컴퓨터 화면이나 전자 기기에서 볼 수 있는 있는 텍스트(데이터))문서를 교환하기 위한 규약
+
+2. HTTP의 특징
+
+- HTTP 메시지는 HTTP 서버와 HTTP 클라이언트에 의해서 해석된다.
+- TCP/IP를 이용하는 응용 프로토콜(application protocol)
+- HTTP는 연결 상태를 유지하지 않는 비연결성 프로토콜 <br>
+💬 클라이언트와 서버가 한 번 연결을 맺은 후, 클 라이언트 요청에 대해 서버가 응답을 마치면 맺었던 연결을 끊어 버리는 성질<br>
+💬 stateless: server side에 client와 server의 동작, 상태정보를 저장하지 않는 형태, server의 응답이 client와의 세션 상태와 독립적임
+- HTTP는 연결을 유지하지 않는 프로토콜이기 떄문에 요청/응답(request/response) 방식
+-
+
+
+예를들면, 클라이언트(client) 즉, 사용자가 브라우저를 통해서 어떠한 서비스를 url을 통하거나 다른 것을 통해서 요청(request)을 하면
+서버에서는 해당 요청사항에 맞는 결과를 찾아서 사용자에게 응답(response)하는 형태로 동작한다.
+<img src="https://camo.githubusercontent.com/3bbfd974922b47fe054d8a9e4d28a4664bd938a70c57e456dcb5becaa1d565d3/68747470733a2f2f62797465736f666769676162797465732e636f6d2f494d414745532f4e6574776f726b696e672f48545450636f6d6d756e636174696f6e2f68747470253230636f6d6d756e69636174696f6e2e706e67" width="500">
+
+- 요청 : client -> server
+- 응답 : server -> client
+
 
 <h5>HTTP 주요 Method</h5>
 
@@ -41,7 +61,7 @@
 | DELETE |  존재하는 자원에 대한 삭제  | 
 
 
-<img src="https://camo.githubusercontent.com/3bbfd974922b47fe054d8a9e4d28a4664bd938a70c57e456dcb5becaa1d565d3/68747470733a2f2f62797465736f666769676162797465732e636f6d2f494d414745532f4e6574776f726b696e672f48545450636f6d6d756e636174696f6e2f68747470253230636f6d6d756e69636174696f6e2e706e67" width="500">
+
 
 
 HTTP 응답 코드
@@ -111,14 +131,17 @@ Ex1) CRUD 기능을 모두 POST로만 처리하는 API
 Ex2) route에 resource, id 외의 정보가 들어가는 경우(/students/updateName)
 
 <br>
-<h5>🔗참고</h5>
+<h5>🔗참조</h5>
  http://tcpschool.com/webbasic/works  <br>
  https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html <br>
  https://joshua1988.github.io/web-development/http-part1/ <br>
  https://nesoy.github.io/articles/2017-02/REST <br>
  http://www.codns.com/b/B05-195 <br>
- https://joshua1988.github.io/web-development/http-part1/
-<br>
+ https://velog.io/@makeitcloud/란-Stateless-Stateful-이란<br>
+ https://joshua1988.github.io/web-development/http-part1/<br>
+ https://victorydntmd.tistory.com/286<br>
+ https://toma0912.tistory.com/69
+ 
  Q <br>
  -Path Variable과 Query Parameter 혼용해서 작성해도 괜찮을까요? <br>
  네트워크 부분에 대해서 어느정도 지식이 있어야 할까요? 
