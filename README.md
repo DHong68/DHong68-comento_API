@@ -38,7 +38,7 @@
 - TCP/IP를 이용하는 응용 프로토콜(application protocol)<br>
 - HTTP는 연결 상태를 유지하지 않는 비연결성 프로토콜 <br>
 💬 클라이언트와 서버가 한 번 연결을 맺은 후, 클 라이언트 요청에 대해 서버가 응답을 마치면 맺었던 연결을 끊어 버리는 성질<br>
-💬 stateless: server side에 client와 server의 동작, 상태정보를 저장하지 않는 형태, server의 응답이 client와의 세션 상태와 독립적임<br>
+💬 stateless: server side에 client와 server의 동작, 상태정보를 저장하지 않는 형태, server의 응답이 client와의 세션 상태와 독립적<br>
 - HTTP는 연결을 유지하지 않는 프로토콜이기 떄문에 요청/응답(request/response) 방식이다
 
 예를들면, 클라이언트(client) 즉, 사용자가 브라우저를 통해서 어떠한 서비스를 url을 통하거나 다른 것을 통해서 요청(request)을 하면
@@ -122,6 +122,9 @@ RESTful한 API를 구현하는 근본적인 목적이 성능 향상에 있는 �
 RESTful 하지 못한 경우<br>
 ① CRUD 기능을 모두 POST로만 처리하는 API <br>
 ② route에 resource, id 외의 정보가 들어가는 경우(/students/updateName)<br>
+
+⚡️초안 1.0.0 <br>
+https://docs.google.com/uc?export=download&id=1tPVji5022tyR5ADzIyZu0xyCkx_cnO2S
 
 <br>
 <h5>🔗참조</h5>
