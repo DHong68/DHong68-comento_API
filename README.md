@@ -8,24 +8,40 @@
 3. [톰캣 설정]
 
 4. [Hello World 출력]
-![helloworld](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3571e253-6959-4ad9-b1e0-8a186dde843b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210304%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210304T064849Z&X-Amz-Expires=86400&X-Amz-Signature=25099d485df161d98b89890b18c113fbcbb9d1283fcb81b62e67dac809d847d7&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+
+<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3571e253-6959-4ad9-b1e0-8a186dde843b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210304%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210304T064849Z&X-Amz-Expires=86400&X-Amz-Signature=25099d485df161d98b89890b18c113fbcbb9d1283fcb81b62e67dac809d847d7&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" width="500">
+
 
 5. [mariaDB, mySql WorkBench 설치 및 샘플 DB 구축]
 
-![mariaDB](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8b6243fb-e68c-4552-b34b-13c395b95ae2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210304%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210304T064939Z&X-Amz-Expires=86400&X-Amz-Signature=21dcf531b6196aea71d3998001a41f4977f42d48edb6455b84b49cf986b02634&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8b6243fb-e68c-4552-b34b-13c395b95ae2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210304%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210304T064939Z&X-Amz-Expires=86400&X-Amz-Signature=21dcf531b6196aea71d3998001a41f4977f42d48edb6455b84b49cf986b02634&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" width="500">
 
-![DB구축](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4f52c231-df95-42f5-b838-ee6496ea73d4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210304%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210304T064753Z&X-Amz-Expires=86400&X-Amz-Signature=5fc2d59be9af78976c6a2a0ad82494fc1a9b79f98b18394517ddc0de8cebef6d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+
+
+<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4f52c231-df95-42f5-b838-ee6496ea73d4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210304%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210304T064753Z&X-Amz-Expires=86400&X-Amz-Signature=5fc2d59be9af78976c6a2a0ad82494fc1a9b79f98b18394517ddc0de8cebef6d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" width="500">
+
 
 6. [스프링, Mariadb, MyBatis 연동, 데이터 조회]
 
-![결과](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8d440e90-7dd8-454a-b804-51ca04309ebf/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210304%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210304T063549Z&X-Amz-Expires=86400&X-Amz-Signature=0a69bbda2882be4cc39dac2d091e1a9348cd0fd365b338c42d5202c8151fceba&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
+<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8d440e90-7dd8-454a-b804-51ca04309ebf/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210304%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210304T063549Z&X-Amz-Expires=86400&X-Amz-Signature=0a69bbda2882be4cc39dac2d091e1a9348cd0fd365b338c42d5202c8151fceba&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" width="500">
 
 
 <h1>2차 프론트엔드 개발자와 백엔드 개발자의 협업 이해하기 </h1>
-<h5>HTTP (Hypertext Transfer Protocol)</h5>
+<h4>HTTP (Hypertext Transfer Protocol)</h4>
 하이퍼텍스트 (Hyper Text란 컴퓨터 화면이나 전자 기기에서 볼 수 있는 있는 텍스트(데이터))문서를 교환하기 위한 규약
 
+<h5>HTTP 주요 Method</h5>
+
+| HTTP Method |     설명     |
+|:-----------:|:-----------:|
+| GET  |  존재하는 자원에 대한 요청 |
+| POST | 새로운 자원을 생성  | 
+| PUT |  존재하는 자원에 대한 변경 | 
+| DELETE |  존재하는 자원에 대한 삭제  | 
+
+
+<img src="https://camo.githubusercontent.com/3bbfd974922b47fe054d8a9e4d28a4664bd938a70c57e456dcb5becaa1d565d3/68747470733a2f2f62797465736f666769676162797465732e636f6d2f494d414745532f4e6574776f726b696e672f48545450636f6d6d756e636174696f6e2f68747470253230636f6d6d756e69636174696f6e2e706e67" width="500">
 
 
 HTTP 응답 코드
@@ -47,9 +63,11 @@ HTTP 응답 코드
 | 500 | 서버에 문제 발생 | 
 
 
- 
+<h5> :monocle_face:웹의 동작 방식</h5>
 
 ①② 사용자가 웹 브라우저를 통해 찾고 싶은 웹 페이지의 URL 주소를 입력
+
+<img src="https://joshua1988.github.io/images/posts/web/http/url-structure.png" width="500">
 
 ③ 사용자가 입력한 URL 주소 중에서 도메인 네임(domain name) 부분을 DNS 서버에서 검색한다.
 
@@ -74,7 +92,7 @@ HTTP 응답 코드
 
 
 
-<h5>💡Rest</h5>
+<h5>💡REST</h5>
 URI를 통하여 이렇듯 REST는 URI를 이용해 명시된 자원(resource)에 접근하고,
 자원(resource)에 어떠한 조작(CRUD)을 할 지 HTTP 메서드로 나타내는 방법이다.
 
@@ -84,7 +102,7 @@ RESTful은 일반적으로 REST라는 아키텍처를 구현하는 웹 서비스
 RESTful은 REST를 REST답게 쓰기 위한 방법으로, 누군가가 공식적으로 발표한 것이 아니다.
 즉, REST 원리를 따르는 시스템은 RESTful이란 용어로 지칭된다.
 
-<h5>RESTful의 목적</h5>
+<h5>💡RESTful의 목적</h5>
 이해하기 쉽고 사용하기 쉬운 REST API를 만드는 것
 RESTful한 API를 구현하는 근본적인 목적이 성능 향상에 있는 것이 아니라 일관적인 컨벤션을 통한 API의 이해도 및 호환성을 높이는 것이 주 동기이니, 
 성능이 중요한 상황에서는 굳이 RESTful한 API를 구현할 필요는 없다.
@@ -93,14 +111,14 @@ Ex1) CRUD 기능을 모두 POST로만 처리하는 API
 Ex2) route에 resource, id 외의 정보가 들어가는 경우(/students/updateName)
 
 <br>
-<h5>🔗참고 </h5><br>
+<h5>🔗참고</h5>
  http://tcpschool.com/webbasic/works  <br>
  https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html <br>
  https://joshua1988.github.io/web-development/http-part1/ <br>
  https://nesoy.github.io/articles/2017-02/REST <br>
  http://www.codns.com/b/B05-195 <br>
-
-
-* Q 
- Path Variable과 Query Parameter 혼용해서 작성해도 괜찮을까요? <br>
+ https://joshua1988.github.io/web-development/http-part1/
+<br>
+ Q <br>
+ -Path Variable과 Query Parameter 혼용해서 작성해도 괜찮을까요? <br>
  네트워크 부분에 대해서 어느정도 지식이 있어야 할까요? 
