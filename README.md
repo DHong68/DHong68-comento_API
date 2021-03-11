@@ -27,7 +27,7 @@
 <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8d440e90-7dd8-454a-b804-51ca04309ebf/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210304%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210304T063549Z&X-Amz-Expires=86400&X-Amz-Signature=0a69bbda2882be4cc39dac2d091e1a9348cd0fd365b338c42d5202c8151fceba&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" width="500">
 
 
-<h1>2차 프론트엔드 개발자와 백엔드 개발자의 협업 이해하기 </h1>
+<h1> 2주차 API 가이드 문서 초안 작성 </h1>
 
 <h4>1.HTTP (Hypertext Transfer Protocol)</h4>
 하이퍼텍스트 (Hyper Text란 컴퓨터 화면이나 전자 기기에서 볼 수 있는 있는 텍스트(데이터))문서를 교환하기 위한 규약이다.
