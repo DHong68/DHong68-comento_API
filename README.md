@@ -134,7 +134,7 @@ RESTful 하지 못한 경우<br>
  https://joshua1988.github.io/web-development/http-part1/<br>
  https://victorydntmd.tistory.com/286<br>
  https://toma0912.tistory.com/69<br>
- Q <br>
- Path Variable과 Query Parameter 혼용해서 작성해도 괜찮을까요? <br>
+ Q <br> 
+ API를 설계 할때 Path Variable과 Query Parameter  둘 중 하나를 선택해야하나요? 아니면 혼용해도 괜찮은가요? <br>
  네트워크 대해서 어느정도 지식이 있어야 할까요?<br>
  협업시 주의해할 점이 있다면 무엇일까요?<br>
