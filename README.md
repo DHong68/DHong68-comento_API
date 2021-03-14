@@ -137,7 +137,4 @@ https://docs.google.com/uc?export=download&id=1tPVji5022tyR5ADzIyZu0xyCkx_cnO2S
  https://joshua1988.github.io/web-development/http-part1/<br>
  https://victorydntmd.tistory.com/286<br>
  https://toma0912.tistory.com/69<br>
- Q <br> 
- API를 설계 할때 Path Variable과 Query Parameter  둘 중 하나를 선택해야하나요? 아니면 혼용해도 괜찮은가요? <br>
- 네트워크 대해서 어느정도 지식이 있어야 할까요?<br>
- 협업시 주의해할 점이 있다면 무엇일까요?<br>
+ 
