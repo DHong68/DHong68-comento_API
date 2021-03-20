@@ -138,3 +138,43 @@ https://docs.google.com/uc?export=download&id=1tPVji5022tyR5ADzIyZu0xyCkx_cnO2S
  https://victorydntmd.tistory.com/286<br>
  https://toma0912.tistory.com/69<br>
  
+ 
+ <h1> 3주차 스프링 부트를 기반으로 간단한 API 만들기  </h1>
+ 
+ 1. 스프링 부트 환경 설정<br>
+**File > New > Project > Spring Boot > Spring Starter Project** 를 클릭하여 프로젝트 생성<br>
+Maven/java8<br>
+Spring Boot Devtools, Spring Web, MyBatis Framework <br>
+또는 <br>
+<https://start.spring.io><br>
+프로젝트 셋팅 <br>
+**2) Pom.xml 수정**
+- Dependency에는 DB 관련 내용을 포함.Lombok,mariadb,jstl 추가 
+- **부트 버전은 2.2.2 수정 
+
+**3)application.properties 수정** ( src/main/resources )
+
+```:application.properties
+
+server.port = 8031
+server.servlet.contextPath=/
+ 
+spring.mvc.view.prefix=/WEB-INF/views/ 
+spring.mvc.view.suffix=.jsp 
+
+devtools.livereload.enabled=true 
+
+spring.datasource.driver-class-name=org.mariadb.jdbc.Driver 
+spring.datasource.url=jdbc:mariadb://127.0.0.1:3306/statistc
+spring.datasource.username=root
+spring.datasource.password=*****
+
+```
+
+2.통계(SW활용현황) API를 위한 DB, Table 생성
+
+<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b85de5e9-2ed5-42d5-8b1e-4c495999b917/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210318%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210318T081332Z&X-Amz-Expires=86400&X-Amz-Signature=6b13c6ccfaae248fcc5bfa791c904614ea88cc0ec4ab228df804aaea69e71e94&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" width="500">
+
+3.[20년도 로그인 수 API] 스프링부트, mybatis, mariadb 연동
+ 
+<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ff1d2d26-5e5f-43a0-b2f4-4a8571adc25b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210318%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210318T081126Z&X-Amz-Expires=86400&X-Amz-Signature=570d713f7bdee160c2198674920168efbd75a05199b11b332c610e427d4e7cb0&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" width="500">
