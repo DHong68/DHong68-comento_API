@@ -2,13 +2,68 @@
 <!DOCTYPE mapper
     PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
     "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-    
-<mapper namespace="com.devfun.settingweb_boot.dao.StatisticMapper">
- 
-    <select id="selectYearLogin" parameterType="string" resultType="hashMap">
-        select count(*) as totCnt
-        from statistc.requestinfo ri
-        where left(ri.createDate, 2) = #{year};
-    </select>
-    
+
+<mapper
+	namespace="com.devfun.settingweb_boot.dao.StatisticMapper">
+
+	<select
+		id="selectYearLogin"
+		parameterType="string"
+		resultType="hashMap">
+		select count(*) as totCnt
+		from statistc.requestinfo ri
+		where left(ri.createDate, 2) = #{year};
+	</select>
+
+	<select
+		id="selectMonthLogin"
+		parameterType="string"
+		resultType="hashMap">
+		select count(*) as totCnt
+		from statistc.requestinfo ri
+		where left(ri.createDate, 4) = #{yearMonth};
+	</select>
+
+	<select
+		id="selectDateLogin"
+		parameterType="string"
+		resultType="hashMap">
+		select count(*) as totCnt
+		from statistc.requestinfo ri
+		where left (ri.createDate, 6) = #{date};
+	</select>
+
+ 	<select
+		id="selectAvgDateLogin"
+		parameterType="string"
+		resultType="hashMap">
+		select count(*)/31 as avgDate
+		from statistc.requestinfo ri
+		where left(ri.createDate, 4) = #{yearMonth};
+	</select>
+
+	<select
+		id="selectDeptMonthLogin"
+		parameterType="string"
+		resultType="hashMap">
+		select count(distinct us.USERNAME) as totcnt 
+		from statistc.requestinfo ri
+		join statistc.user us
+		on left(ri.createDate, 4) = #{yearMonth} and us.HR_ORGAN= #{dept};
+	</select>
+
+	<select
+		id="selectNonPhLogin"
+		parameterType="string"
+		resultType="hashMap">
+		select count(*)
+		from statistc.requestinfo ri left join statistc.holiday ho
+		on left(ri.createDate,6)=ho.holidaydate
+		WHERE ho.holidaydate IS NULL AND left(ri.createDate,4)=#{yearMonth};
+
+	</select>
+
+
+
+
 </mapper>
