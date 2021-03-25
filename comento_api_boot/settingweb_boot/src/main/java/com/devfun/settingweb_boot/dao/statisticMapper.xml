@@ -11,7 +11,7 @@
 		resultType="hashMap">
 		select count(*) as totCnt ,ri.requestCode
 		from statistc.requestinfo ri
-		where left(ri.createDate, 2) = #{year};
+		where left(ri.createDate, 2) = #{year} and ri.requestCode ='L' ;
 	</select>
 
 	<select
@@ -20,7 +20,7 @@
 		resultType="hashMap">
 		select count(*) as totCnt ,ri.requestCode
 		from statistc.requestinfo ri
-		where left(ri.createDate, 4) = #{yearMonth};
+		where left(ri.createDate, 4) = #{yearMonth} and ri.requestCode ='L';
 	</select>
 
 	<select
@@ -29,7 +29,7 @@
 		resultType="hashMap">
 		select count(*) as totCnt ,ri.requestCode
 		from statistc.requestinfo ri
-		where left (ri.createDate, 6) = #{date};
+		where left (ri.createDate, 6) = #{date} and ri.requestCode ='L';
 	</select>
 
 
@@ -41,7 +41,7 @@
 		select
 		round(count(*)/31,2) as avgDate,ri.requestCode
 		from statistc.requestinfo ri
-		where left(ri.createDate, 4) = #{yearMonth};
+		where left(ri.createDate, 4) = #{yearMonth} and ri.requestCode ='L';
 	</select>
 
 <!-- 부서별 월별 로그인 횟수 조회 -->
@@ -52,7 +52,8 @@
 		select count(distinct us.USERNAME) as totcnt ,ri.requestCode
 		from statistc.requestinfo ri
 		join statistc.user us
-		on left(ri.createDate, 4) = #{yearMonth} and us.HR_ORGAN= #{dept};
+		on left(ri.createDate, 4) = #{yearMonth} and us.HR_ORGAN= #{dept}
+		and ri.requestCode ='L';
 	</select>
 
 <!-- 휴일제외한 월별 로그인 횟수 조회 -->
@@ -63,7 +64,8 @@
 		select count(*)  as totCnt,ri.requestCode
 		from statistc.requestinfo ri left join statistc.holiday ho
 		on left(ri.createDate,6)=ho.holidaydate
-		WHERE ho.holidaydate IS NULL AND left(ri.createDate,4)=#{yearMonth} ;
+		WHERE ho.holidaydate IS NULL AND left(ri.createDate,4)=#{yearMonth} 
+		and ri.requestCode ='L';
 
 	</select>
 	
@@ -74,7 +76,8 @@
 		resultType="hashMap">
 		select ri.userID, count(*) as totCnt, ri.requestCode
 		from statistc.requestinfo ri 
-		where left(ri.createDate, 4) = #{yearMonth} and ri.userID=#{userId};
+		where left(ri.createDate, 4) = #{yearMonth} and ri.userID=#{userId}
+		and ri.requestCode ='L';
 	
 	</select>
 
