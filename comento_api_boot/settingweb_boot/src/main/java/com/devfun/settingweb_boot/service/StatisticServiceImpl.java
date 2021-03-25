@@ -1,27 +1,33 @@
 package com.devfun.settingweb_boot.service;
 
 import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.devfun.settingweb_boot.dao.StatisticMapper;
+import com.devfun.settingweb_boot.dto.StatisticDto;
 
 @Service
 public class StatisticServiceImpl implements StatisticService {
-   
+
    
    @Autowired
    private StatisticMapper uMapper;
    
+
+
    @Override
    public HashMap<String, Object> yearloginNum (String year) {
-       // TODO Auto-generated method stub
        HashMap<String, Object> retVal = new HashMap<String,Object>();
        
        try {
            retVal = uMapper.selectYearLogin(year);
            retVal.put("year", year);
            retVal.put("is_success", true);
+           
            
        }catch(Exception e) {
            retVal.put("totCnt", -999);
@@ -100,10 +106,70 @@ public class StatisticServiceImpl implements StatisticService {
 	return retVal;
 }
 
+  @Override
+  public HashMap<String, Object> AvgMonthloginNum(String yearMonth) {
+	  
+   HashMap<String, Object> retVal = new HashMap<String,Object>();
+	   
+	   try {
+		   
+		   retVal = uMapper.selectAvgDateLogin(yearMonth);
+		   retVal.put("yearMonth", yearMonth);
+		   retVal.put("is_success", true);
+		   
+	   }catch (Exception e) {
+	       retVal.put("totCnt", -999);
+		   retVal.put("yearMonth", yearMonth);
+		   retVal.put("is_success", false);
+	}
+	   
+	return retVal;
+	    
+	
+  }
 
-    
+
+  @Override
+  public HashMap<String, Object> NonPhLogin(String yearMonth) {
+	  HashMap<String, Object> retVal = new HashMap<String,Object>();
+	   
+	   try {
+		   
+		   retVal = uMapper.selectNonPhLogin(yearMonth);
+		   retVal.put("yearMonth", yearMonth);
+		   retVal.put("is_success", true);
+		   
+	   }catch (Exception e) {
+	       retVal.put("totCnt", -999);
+		   retVal.put("yearMonth", yearMonth);
+		   retVal.put("is_success", false);
+	}
+	   
+	return retVal;
+	 
+	  
+	  
 }
+
+  @Override
+  public HashMap<String, Object> WirteCnt(String yearMonth,String userId) {
+	  HashMap<String, Object> retVal = new HashMap<String,Object>();	
+   try {
+		   
+		   retVal = uMapper.selectWriteCnt(yearMonth, userId);
+		   retVal.put("userID",userId);
+		   retVal.put("yearMonth", yearMonth);
+		   retVal.put("is_success", true);
+		   
+	   }catch (Exception e) {
+	       retVal.put("totCnt", -999);
+		   retVal.put("yearMonth", yearMonth);
+		   retVal.put("is_success", false);
+	}
+	   
+	return retVal;
+	 
+	  
+  }
    
-   
-   
-   
+}
