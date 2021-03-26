@@ -205,7 +205,12 @@ spring.datasource.password=*****
 
 <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/17d6f0ed-0f1b-412b-82db-d8b775a5f977/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210325%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210325T122207Z&X-Amz-Expires=86400&X-Amz-Signature=2e64720c12050d2efde891d2064c9f4702a853b91f9b960cf12fc07b4812a207&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" width="500">
 
-7.공휴일을 제외한 월 접속자수 조회
+7.게시글 전체 조회
+
+<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/740b7b90-a393-4985-ae9b-23c4bc2a5bb3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210326%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210326T150906Z&X-Amz-Expires=86400&X-Amz-Signature=5699ba982115fa795c01538fab4bc58576cbd0a74083cd7d02811c5e8a26b004&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" width="500">
+
+
+8.공휴일을 제외한 월 접속자수 조회
 
 <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e18ca4b0-3707-4a63-ba5b-ad81c83d6f0a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210325%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210325T125017Z&X-Amz-Expires=86400&X-Amz-Signature=3826b93d97270f9302a58521020b910881ec48215b5bb84ba98477c64ba7dc19&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" width="500">
 
