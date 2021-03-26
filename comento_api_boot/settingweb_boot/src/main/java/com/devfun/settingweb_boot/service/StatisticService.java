@@ -15,4 +15,6 @@ public interface StatisticService {
 	    public HashMap<String,Object> AvgMonthloginNum (String yearMonth);
 	    public HashMap<String, Object> NonPhLogin(String yearMonth);
 	    public HashMap<String, Object> WirteCnt(String yearMonth,String userId);
+	    public ArrayList<HashMap<String, Object>> AllWirteCnt(String yearMonth);
+
 }

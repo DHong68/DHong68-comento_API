@@ -1,9 +1,11 @@
 package com.devfun.settingweb_boot.service;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.ibatis.session.SqlSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,8 +18,8 @@ public class StatisticServiceImpl implements StatisticService {
    
    @Autowired
    private StatisticMapper uMapper;
-   
-
+   @Autowired
+   SqlSession SqlSession;
 
    @Override
    public HashMap<String, Object> yearloginNum (String year) {
@@ -171,5 +173,35 @@ public class StatisticServiceImpl implements StatisticService {
 	 
 	  
   }
-   
+
+@Override
+public ArrayList<HashMap<String, Object>> AllWirteCnt(String yearMonth) {
+
+	 List<HashMap<String, Object>> list = new ArrayList<HashMap<String,Object>>();
+	 HashMap<String, Object> map = new HashMap<String,Object>();
+
+	 try {
+
+		 
+		 
+		 list=uMapper.selectAllWriteCnt(yearMonth);
+		
+		 
+	   }catch (Exception e) {
+		 
+		   
+		   map.put("totCnt", -999);
+		   map.put("yearMonth", yearMonth);
+		   map.put("is_success", false);
+		   
+		   list.add(map);
+	}
+	 
+	 return (ArrayList<HashMap<String, Object>>) list;
+	
+	 	
+
+}
+
+  
 }

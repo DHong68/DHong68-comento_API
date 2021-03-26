@@ -13,6 +13,6 @@ public interface  StatisticMapper {
     public HashMap<String, Object> selectDeptMonthLogin(String yearMonth,String dept);
     public HashMap<String, Object> selectNonPhLogin(String yearMonth);
     public HashMap<String, Object> selectWriteCnt(String yearMonth,String userId);
-
+    public ArrayList<HashMap<String, Object>> selectAllWriteCnt(String yearMonth);
 
 }

@@ -5,6 +5,7 @@
 
 <mapper
 	namespace="com.devfun.settingweb_boot.dao.StatisticMapper">
+
 <select
 		id="selectYearLogin"
 		parameterType="string"
@@ -69,7 +70,7 @@
 
 	</select>
 	
-	<!-- 게시글 작성수 조회 -->
+	
 	<select
 		id="selectWriteCnt"
 	     parameterType="string"
@@ -80,7 +81,17 @@
 		and ri.requestCode ='L';
 	
 	</select>
-
+	
+	<select
+		id="selectAllWriteCnt"
+	     parameterType="string"
+		resultType="hashMap">
+		select count(*) as post ,ri.userID, ri.requestCode
+		from statistc.requestinfo ri 
+		where left(ri.createDate, 4) =#{yearMonth} and ri.requestCode ='L'	 
+        group by ri.userID;
+	
+	</select>
 	
 
 </mapper>

@@ -4,11 +4,14 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
- 
+
+import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
@@ -69,6 +72,15 @@ public class settingTest {
 	
         return service.WirteCnt(yearMonth,userId);
    }
+   
+   @ResponseBody 
+   @RequestMapping("/api/logs/boradmanagement" )
+   public ArrayList<HashMap<String, Object>> ALLwirteCnt(@RequestParam String yearMonth) throws Exception{ 
+       
+	   
+       return service.AllWirteCnt(yearMonth);
+   }
+   
   
    @ResponseBody 
    @RequestMapping( {"/api/logs/nonph/{yearMonth}"})
@@ -79,6 +91,10 @@ public class settingTest {
    }
    
     
+  
+   
+   
+   
     @RequestMapping("/test") 
     public ModelAndView test() throws Exception{ 
         ModelAndView mav = new ModelAndView("test"); 
