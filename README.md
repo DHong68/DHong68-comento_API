@@ -202,8 +202,8 @@ spring.datasource.password=*****
 
 6.게시글 수 조회
 
-![select](./img/Untitled(6).png)
-
+![select](./img/Untitled(6) .png)
+ 
 
 7.공휴일을 제외한 월 접속자수 조회
 
