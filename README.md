@@ -179,31 +179,24 @@ spring.datasource.password=*****
 
  <h1> 4주차 스프링 부트를 기반으로 간단한 API 만들기  </h1>
  
-1. 년도별 접속자수 조회 
+1. 년도별 접속자수 조회 <br>
 <img src="/img/(13).png" width="600" height="200">
-2. 월별 접속자수 조회 
+<br>
+2. 월별 접속자수 조회 <br>
 <img src="/img/(11).png" width="600" height="200">
-
-
-3.부서별 월 접속자수 조회
-
+<br>
+3.부서별 월 접속자수 조회<br>
 <img src="/img/(3).png" width="600" height="200">
-
- 
-4.일별 접속자수 조회
-
+<br>
+4.일별 접속자수 조회<br>
 <img src="/img/(12).png" width="600" height="200">
-
- 
-5.하루 평균 접속자수 조회
+<br>
+5.하루 평균 접속자수 조회<br>
 <img src="/img/(2).png" width="600" height="200">
-
-6.게시글 수 조회
-
+6.게시글 수 조회<br>
 <img src="/img/(4).png" width="600" height="200">
- 
-
-7.공휴일을 제외한 월 접속자수 조회
+ <br>
+7.공휴일을 제외한 월 접속자수 조회<br>
 <img src="/img/Untitled.png" width="600" height="200">
-
+<br>
  
