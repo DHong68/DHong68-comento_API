@@ -10,21 +10,20 @@
 4. [Hello World 출력]
 
 
- <img src="/img/(5).png" width="1300" height="300">
+ <img src="/img/(5).png" width="600" height="200">
 
 5. [mariaDB, mySql WorkBench 설치 및 샘플 DB 구축]
 
- ![](./img/(8).png)
 
- ![](./img/(6).png)
+<img src="/img/(8).png" width="600" height="200">
 
+<img src="/img/(6).png" width="600" height="200">
 
 
 
 6. [스프링, Mariadb, MyBatis 연동, 데이터 조회]
 
- ![](./img/(7).png)
-
+<img src="/img/(7).png" width="600" height="200">
 
 
 <h1> 2주차 API 가이드 문서 초안 작성 </h1>
@@ -181,35 +180,30 @@ spring.datasource.password=*****
  <h1> 4주차 스프링 부트를 기반으로 간단한 API 만들기  </h1>
  
 1. 년도별 접속자수 조회 
-![avg](./img/(13).png)
-
-
+<img src="/img/(13).png" width="600" height="200">
 2. 월별 접속자수 조회 
-![mo](./img/(11).png)
+<img src="/img/(11).png" width="600" height="200">
 
 
 3.부서별 월 접속자수 조회
 
-
-![avg](./img/(3).png)
+<img src="/img/(3).png" width="600" height="200">
 
  
 4.일별 접속자수 조회
 
-![avg](./img/(12).png)
+<img src="/img/(12).png" width="600" height="200">
 
  
 5.하루 평균 접속자수 조회
-![avg](./img/(2).png)
+<img src="/img/(2).png" width="600" height="200">
 
 6.게시글 수 조회
 
-![select](./img/(4).png)
+<img src="/img/(4).png" width="600" height="200">
  
 
 7.공휴일을 제외한 월 접속자수 조회
-
-![non](./img/Untitled.png)
-
+<img src="/img/Untitled.png" width="600" height="200">
 
  
