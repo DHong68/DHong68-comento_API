@@ -9,7 +9,7 @@
 
 4. [Hello World 출력]
 
- ![hi](./img/(5).png){: width="800" height="300"}
+ ![hi](./img/(5).png){: width="1200px" height="300px"}
 
 5. [mariaDB, mySql WorkBench 설치 및 샘플 DB 구축]
 
