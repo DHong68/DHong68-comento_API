@@ -8,9 +8,8 @@
 3. [톰캣 설정]
 
 4. [Hello World 출력]
- ![hi](./img/(5).png)
 
-
+ ![hi](./img/(5).png){: width="800" height="300"}
 
 5. [mariaDB, mySql WorkBench 설치 및 샘플 DB 구축]
 
@@ -204,7 +203,7 @@ spring.datasource.password=*****
 
 6.게시글 수 조회
 
-![select](./img/(6).png)
+![select](./img/(4).png)
  
 
 7.공휴일을 제외한 월 접속자수 조회
