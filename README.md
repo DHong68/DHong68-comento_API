@@ -10,12 +10,12 @@
 4. [Hello World 출력]
 
 
-![](./img/Untitled(11).png)
+![](./img/(11).png)
 
 5. [mariaDB, mySql WorkBench 설치 및 샘플 DB 구축]
 
 
-![](./img/Untitled(8).png)
+![](./img/(8).png)
 
 
 
@@ -179,7 +179,7 @@ spring.datasource.password=*****
  <h1> 4주차 스프링 부트를 기반으로 간단한 API 만들기  </h1>
  
 1. 년도별 접속자수 조회 
-![avg](./img/Untitled(3).png)
+![avg](./img/(3).png)
 
 
 2. 월별 접속자수 조회 
@@ -189,20 +189,20 @@ spring.datasource.password=*****
 3.부서별 월 접속자수 조회
 
 
-![avg](./img/Untitled(5).png)
+![avg](./img/(5).png)
 
  
 4.일별 접속자수 조회
 
-![avg](./img/Untitled(2).png)
+![avg](./img/(2).png)
 
  
 5.하루 평균 접속자수 조회
-![avg](./img/Untitled(4).png)
+![avg](./img/(4).png)
 
 6.게시글 수 조회
 
-![select](./img/Untitled(6) .png)
+![select](./img/(6).png)
  
 
 7.공휴일을 제외한 월 접속자수 조회
