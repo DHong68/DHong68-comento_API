@@ -9,22 +9,20 @@
 
 4. [Hello World 출력]
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3571e253-6959-4ad9-b1e0-8a186dde843b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210304%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210304T064849Z&X-Amz-Expires=86400&X-Amz-Signature=25099d485df161d98b89890b18c113fbcbb9d1283fcb81b62e67dac809d847d7&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" width="500">
 
+![](./img/Untitled(11).png)
 
 5. [mariaDB, mySql WorkBench 설치 및 샘플 DB 구축]
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8b6243fb-e68c-4552-b34b-13c395b95ae2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210304%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210304T064939Z&X-Amz-Expires=86400&X-Amz-Signature=21dcf531b6196aea71d3998001a41f4977f42d48edb6455b84b49cf986b02634&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" width="500">
+
+![](./img/Untitled(8).png)
 
 
-
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4f52c231-df95-42f5-b838-ee6496ea73d4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210304%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210304T064753Z&X-Amz-Expires=86400&X-Amz-Signature=5fc2d59be9af78976c6a2a0ad82494fc1a9b79f98b18394517ddc0de8cebef6d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" width="500">
 
 
 6. [스프링, Mariadb, MyBatis 연동, 데이터 조회]
 
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8d440e90-7dd8-454a-b804-51ca04309ebf/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210304%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210304T063549Z&X-Amz-Expires=86400&X-Amz-Signature=0a69bbda2882be4cc39dac2d091e1a9348cd0fd365b338c42d5202c8151fceba&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" width="500">
 
 
 <h1> 2주차 API 가이드 문서 초안 작성 </h1>
@@ -173,46 +171,43 @@ spring.datasource.password=*****
 
 2.통계(SW활용현황) API를 위한 DB, Table 생성
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b85de5e9-2ed5-42d5-8b1e-4c495999b917/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210320%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210320T115358Z&X-Amz-Expires=86400&X-Amz-Signature=a11c258ab6c7f46c322bad460dee75a86cf836f04939ea20f9c3265eaac8ab5e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" width="500">
 
 3.[20년도 로그인 수 API] 스프링부트, mybatis, mariadb 연동
  
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ff1d2d26-5e5f-43a0-b2f4-4a8571adc25b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210320%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210320T115438Z&X-Amz-Expires=86400&X-Amz-Signature=d8bf770671b95a0a74b915384d71a87c13a526c999b098e19f68ed04249ad165&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" width="500">
+
 
  <h1> 4주차 스프링 부트를 기반으로 간단한 API 만들기  </h1>
  
- 1. 년도별 접속자수 조회 
+1. 년도별 접속자수 조회 
+![avg](./img/Untitled(3).png)
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6da2b3a9-c4c3-45cf-8f12-3002f2a67692/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210325%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210325T121811Z&X-Amz-Expires=86400&X-Amz-Signature=9d3d64b26481ec464ed7ee570cbd9661b77858bcc6774268005a64a9e0d5c5c6&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" width="500">
 
-  2. 월별 접속자수 조회 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/64d4b624-56fe-448a-9715-d1f03c0bb1ef/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210325%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210325T115037Z&X-Amz-Expires=86400&X-Amz-Signature=b3a9ef2c561ccb081d12896d872cbd15b65ee2abe136c2f928bba467a44282ca&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" width="500">
+2. 월별 접속자수 조회 
+![mo](./img/mo.png)
+
 
 3.부서별 월 접속자수 조회
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4ff460ef-3178-4ff1-a00f-d3499a8cfa60/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210325%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210325T122112Z&X-Amz-Expires=86400&X-Amz-Signature=0a0d6019b5902d2d43aea792895da65fc138291460cd8effcb732af7739c3dd1&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" width="500">
+
+![avg](./img/Untitled(5).png)
 
  
- 4.일별 접속자수 조회
+4.일별 접속자수 조회
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1e2b6473-4333-40f1-98e1-26d3d0fc0f7d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210325%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210325T121906Z&X-Amz-Expires=86400&X-Amz-Signature=3c7c20611f7ee92fd1e4e03d5815b265da2791e51be27fac916a9c97fdd3cf6e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" width="500">
+![avg](./img/Untitled(2).png)
+
  
- 5.하루 평균 접속자수 조회
-
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5356a2c9-1018-4cda-a654-39d2debaa256/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210325%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210325T122035Z&X-Amz-Expires=86400&X-Amz-Signature=915bcf9d3c65bb51e92b50dcbeb209b955197221f974ca1bc8621366735665ad&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" width="500">
+5.하루 평균 접속자수 조회
+![avg](./img/Untitled(4).png)
 
 6.게시글 수 조회
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/17d6f0ed-0f1b-412b-82db-d8b775a5f977/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210325%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210325T122207Z&X-Amz-Expires=86400&X-Amz-Signature=2e64720c12050d2efde891d2064c9f4702a853b91f9b960cf12fc07b4812a207&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" width="500">
+![select](./img/Untitled(6) .png)
+ 
 
-7.게시글 전체 조회
+7.공휴일을 제외한 월 접속자수 조회
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/740b7b90-a393-4985-ae9b-23c4bc2a5bb3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210326%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210326T150906Z&X-Amz-Expires=86400&X-Amz-Signature=5699ba982115fa795c01538fab4bc58576cbd0a74083cd7d02811c5e8a26b004&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" width="500">
-
-
-8.공휴일을 제외한 월 접속자수 조회
-
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e18ca4b0-3707-4a63-ba5b-ad81c83d6f0a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210325%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210325T125017Z&X-Amz-Expires=86400&X-Amz-Signature=3826b93d97270f9302a58521020b910881ec48215b5bb84ba98477c64ba7dc19&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" width="500">
+![non](./img/non.png)
 
 
  
