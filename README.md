@@ -8,20 +8,22 @@
 3. [톰캣 설정]
 
 4. [Hello World 출력]
+ ![hi](./img/(5).png)
 
 
-![](./img/(11).png)
 
 5. [mariaDB, mySql WorkBench 설치 및 샘플 DB 구축]
 
+ ![](./img/(8).png)
 
-![](./img/(8).png)
+ ![](./img/(6).png)
 
 
 
 
 6. [스프링, Mariadb, MyBatis 연동, 데이터 조회]
 
+ ![](./img/(7).png)
 
 
 
@@ -179,26 +181,26 @@ spring.datasource.password=*****
  <h1> 4주차 스프링 부트를 기반으로 간단한 API 만들기  </h1>
  
 1. 년도별 접속자수 조회 
-![avg](./img/(3).png)
+![avg](./img/(13).png)
 
 
 2. 월별 접속자수 조회 
-![mo](./img/mo.png)
+![mo](./img/(11).png)
 
 
 3.부서별 월 접속자수 조회
 
 
-![avg](./img/(5).png)
+![avg](./img/(3).png)
 
  
 4.일별 접속자수 조회
 
-![avg](./img/(2).png)
+![avg](./img/(12).png)
 
  
 5.하루 평균 접속자수 조회
-![avg](./img/(4).png)
+![avg](./img/(2).png)
 
 6.게시글 수 조회
 
@@ -207,7 +209,7 @@ spring.datasource.password=*****
 
 7.공휴일을 제외한 월 접속자수 조회
 
-![non](./img/non.png)
+![non](./img/Untitled.png)
 
 
  
